@@ -1,7 +1,11 @@
-package ba.unsa.etf.rpr;
+package ba.unsa.etf.rpr.lab3;
 
-public class Main {
+public class Program {
+    public void opcije() {
+
+    }
     public static void main(String[] args) {
         System.out.println("Hello world!");
+
     }
 }
