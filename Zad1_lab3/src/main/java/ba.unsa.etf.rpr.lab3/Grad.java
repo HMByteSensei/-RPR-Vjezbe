@@ -11,8 +11,8 @@ public enum Grad {
     BIHAC("037"),
     BRCKO("049"),
     GORAZDE("038"),
-    SIORKI_BRIJEG("039");
-
+    SIORKI_BRIJEG("039"),
+    NEPOSTOJI("000");
     private final String broj;
 
     Grad(String broj) {

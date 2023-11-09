@@ -4,7 +4,7 @@ public class FiksniBroj extends TelefonskiBroj {
     private Grad grad;
     private String broj;
 
-    FiksniBroj(Grad grad, String broj) {
+    public FiksniBroj(Grad grad, String broj) {
         this.grad = grad;
         this.broj = broj;
     }
@@ -15,7 +15,7 @@ public class FiksniBroj extends TelefonskiBroj {
 
     @Override
     public String ispisi() {
-        return grad.toString() + "/" + broj;
+        return grad + "/" + broj;
     }
     public String ispisi2() throws Izuzetak {
         return  "\nIme grada: " + grad.name() + " " +
@@ -40,6 +40,6 @@ public class FiksniBroj extends TelefonskiBroj {
 
     @Override
     public int hashCode() {
-        return Integer.parseInt(broj.substring(0, 3));
+        return Integer.parseInt(grad.toString());
     }
 }

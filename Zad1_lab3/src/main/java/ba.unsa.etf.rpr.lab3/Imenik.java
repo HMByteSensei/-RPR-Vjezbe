@@ -30,7 +30,7 @@ public class Imenik {
         int i = 1; // samo da pobroji koliko ima brojeva tj. za ispis
         for(var kljuc : spisak.keySet()) {
             if(kljuc.charAt(0) == c) {
-                rez.append(i++).append(". ").append(kljuc).append(" - ").append(spisak.values()).append("\n");
+                rez.append(i++).append(". ").append(kljuc).append(" - ").append(spisak.get(kljuc)).append("\n");
                 //= rez + i+1 + spisak.keySet() + " - " + spisak.values() + "\n";
             }
         }
