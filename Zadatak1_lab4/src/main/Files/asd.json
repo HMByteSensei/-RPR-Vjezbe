@@ -1,0 +1,21 @@
+{
+  "brend" : null,
+  "model" : null,
+  "cijena" : 0.0,
+  "ram" : 0,
+  "hdd" : 0,
+  "ssd" : 0,
+  "procesor" : null,
+  "grafickaKartica" : null,
+  "velicinaEkrana" : 0.0
+}{
+  "brend" : "HMCity",
+  "model" : "250xE",
+  "cijena" : 10500.0,
+  "ram" : 1000000,
+  "hdd" : 10050,
+  "ssd" : 1000625,
+  "procesor" : "i10",
+  "grafickaKartica" : "NV",
+  "velicinaEkrana" : 18.0
+}
