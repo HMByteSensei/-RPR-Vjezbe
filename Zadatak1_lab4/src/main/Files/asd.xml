@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<laptopi>
+        
+    <laptop id="1">
+                
+        <brend/>
+                
+        <model/>
+                
+        <cijena>0.0</cijena>
+                
+        <ram>0</ram>
+                
+        <ssd>0</ssd>
+                
+        <hdd>0</hdd>
+                
+        <procesor>null</procesor>
+                
+        <grafickaKartica>null</grafickaKartica>
+                
+        <velicinaEkrana>0.0</velicinaEkrana>
+            
+    </laptop>
+    
+    <laptop id="1">
+        <brend>HMCity</brend>
+        <model>250xE</model>
+        <cijena>10500.0</cijena>
+        <ram>1000000</ram>
+        <ssd>1000625</ssd>
+        <hdd>10050</hdd>
+        <procesor>i10</procesor>
+        <grafickaKartica>NV</grafickaKartica>
+        <velicinaEkrana>18.0</velicinaEkrana>
+    </laptop>
+</laptopi>

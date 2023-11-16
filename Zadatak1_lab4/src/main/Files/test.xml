@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<laptopi/><laptopi>
+    <laptop id="1">
+        <brend/>
+        <model/>
+        <cijena>0.0</cijena>
+        <ram>0</ram>
+        <ssd>0</ssd>
+        <hdd>0</hdd>
+        <procesor>null</procesor>
+        <grafickaKartica>null</grafickaKartica>
+        <velicinaEkrana>0.0</velicinaEkrana>
+    </laptop>
+</laptopi>
