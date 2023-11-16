@@ -29,6 +29,7 @@ public class LaptopDaoJSONFile implements LaptopDao {
             e.printStackTrace();
         }
     }
+    public LaptopDaoJSONFile(String naziv, File f) {this(naziv);}
     @Override
     public void dodajLaptopUListu(Laptop laptop) {
         spisakLaptopa.add(laptop);

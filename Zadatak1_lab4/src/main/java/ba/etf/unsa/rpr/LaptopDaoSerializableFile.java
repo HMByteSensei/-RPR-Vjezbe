@@ -1,8 +1,5 @@
 package ba.etf.unsa.rpr;
 
-import org.codehaus.jackson.map.ObjectMapper;
-import org.codehaus.jackson.type.TypeReference;
-
 import java.io.*;
 import java.util.ArrayList;
 
