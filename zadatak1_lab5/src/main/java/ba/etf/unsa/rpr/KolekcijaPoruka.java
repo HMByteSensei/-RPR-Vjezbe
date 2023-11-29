@@ -8,4 +8,9 @@ public class KolekcijaPoruka {
     public ArrayList<String> getPoruke() {
         return poruke;
     }
+    public KolekcijaPoruka(ArrayList<Predstavljanje> poruke) {
+        for(var x : poruke) {
+            this.poruke.add(x.predstavi());
+        }
+    }
 }

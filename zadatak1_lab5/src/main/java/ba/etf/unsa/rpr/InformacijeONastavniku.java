@@ -1,6 +1,6 @@
 package ba.etf.unsa.rpr;
 
-public class InformacijeONastavniku extends LicneInformacije implements Predstavljanje {
+public class InformacijeONastavniku extends LicneInformacije {
     private String titula;
 
     public String getTitula() {
@@ -8,9 +8,5 @@ public class InformacijeONastavniku extends LicneInformacije implements Predstav
     }
     public void setTitula(String titula) {
         this.titula = titula;
-    }
-    @Override
-    public String predstavi() {
-        return "Ime:" + this.getIme() + " Prezime:" + this.getPrezime();
     }
 }
