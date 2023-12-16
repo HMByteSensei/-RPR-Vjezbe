@@ -10,11 +10,11 @@ public class Korisnik {
     private SimpleStringProperty lozinka;
 
     public Korisnik() {
-        ime = new SimpleStringProperty();
-        prezime = new SimpleStringProperty();
-        email = new SimpleStringProperty();
-        kIme = new SimpleStringProperty();
-        lozinka = new SimpleStringProperty();
+        ime = new SimpleStringProperty("");
+        prezime = new SimpleStringProperty("");
+        email = new SimpleStringProperty("");
+        kIme = new SimpleStringProperty("");
+        lozinka = new SimpleStringProperty("");
     }
 
     public Korisnik(String ime, String prezime, String email, String kime, String lozinka) {
