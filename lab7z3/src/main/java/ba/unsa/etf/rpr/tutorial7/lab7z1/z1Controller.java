@@ -119,8 +119,8 @@ public class z1Controller {
                     alert.setHeaderText("Niste pravilno popunili podatke, stoga se ovaj korisnik ne moze dodati");
                     alert.setContentText("Morate pravilno popuniti svako polje date forme");
                     alert.showAndWait();
-                    listViewKorisnika.getFocusModel();
                     listViewKorisnika.scrollTo(zadnjiElement);
+                    listViewKorisnika.getSelectionModel().select(zadnjiElement);
                     model.setTrenutniKorisnik(k);
                 }
             });
